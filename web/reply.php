@@ -1,6 +1,6 @@
 <?php
 
-$channelAccessToken = 'QcHDhZEsrHWkRfdK4cnAaEKRCPybJJaq8uRIL9x9Z5aE2ul68h6K9GDOiJOyKPBnkhzlZpvXWaaT9a';
+$channelAccessToken = 'QcHDhZEsrHWkRfdK4cnAaEKRCPybJJaq8uRIL9x9Z5aE2ul68h6K9GDOiJOyKPBnkhzlZpvXWaaT9a+WEZx33bRuaqdBRIzVcIxzeptQapMnBFEIW0OkNjCla7BGFDijaNwDmnkxbA3Lt3qPQXoIDQdB04t89/1O/w1cDnyilFU=';
 $password = '1';      // user login password
 $dbFilePath = 'line-db.json';        // user info database file path
 
