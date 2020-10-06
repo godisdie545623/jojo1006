@@ -1,6 +1,6 @@
 <?php
 
-$channelAccessToken = '{Your_Access_Token}';
+$channelAccessToken = 'QcHDhZEsrHWkRfdK4cnAaEKRCPybJJaq8uRIL9x9Z5aE2ul68h6K9GDOiJOyKPBnkhzlZpvXWaaT9a';
 $userIds = [];
 $message = isset($argv[1]) ? $argv[1] : 'Hello!';
 $dbFilePath = __DIR__ . '/line-db.json';  // user info database file path

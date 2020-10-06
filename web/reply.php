@@ -1,7 +1,7 @@
 <?php
 
 $channelAccessToken = 'QcHDhZEsrHWkRfdK4cnAaEKRCPybJJaq8uRIL9x9Z5aE2ul68h6K9GDOiJOyKPBnkhzlZpvXWaaT9a';
-$password = 'godisdid545623';      // user login password
+$password = '1';      // user login password
 $dbFilePath = 'line-db.json';        // user info database file path
 
 if (!file_exists($dbFilePath)) {
