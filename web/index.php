@@ -1,5 +1,4 @@
 <?php
-/*
 require('../vendor/autoload.php');
 
 $app = new Silex\Application();
@@ -22,6 +21,5 @@ $app->get('/', function() use($app) {
   return $app['twig']->render('index.twig');
 });
 
-$app->run();*/
-echo "shit hole";
+$app->run();
 ?>
