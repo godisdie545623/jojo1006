@@ -1,4 +1,5 @@
 <?php
+
 require('../vendor/autoload.php');
 
 $app = new Silex\Application();
@@ -22,4 +23,3 @@ $app->get('/', function() use($app) {
 });
 
 $app->run();
-?>
