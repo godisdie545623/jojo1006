@@ -38,9 +38,9 @@ foreach ($obj['events'] as &$event) {
            unset($db['user'][$userId]);
            file_put_contents($dbFilePath, json_encode($db));
            $message = 'bye';
-       } else if (strcasecmp($event['message']['text'],'天氣') === 0) {
-		   $message = '我幫你找找，稍等';
-	   }else {
+       }/*else if (strcasecmp($event['message']['text'],'天氣') === 0) {
+			//$message = '我幫你找找，稍等';
+	   }*/else {
            $message = 'Already logged in. You can send \'bye\' to logout.';
        }
    }
