@@ -30,7 +30,8 @@ $payload = [
        ]
    ]
 ];
-
+//jojo testing
+//i really wanna die
 // Send Request by CURL
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://api.line.me/v2/bot/message/multicast');
